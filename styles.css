@@ -86,7 +86,6 @@ picture {
 
 body {
     background-image: url('./images/bg-mobile.svg');
-    background-color: var(--clr-violet);
     background-repeat: no-repeat;
     margin: 1.48rem;
 }
