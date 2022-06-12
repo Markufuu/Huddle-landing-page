@@ -85,7 +85,7 @@ picture {
 /*----------------*/
 
 body {
-    background-image: url("images/bg-mobile.svg");
+    background-image: url(images/bg-mobile.svg);
     background-color: var(--clr-violet);
     background-repeat: no-repeat;
     margin: 1.48rem;
@@ -106,7 +106,7 @@ main {
 
 @media screen and (min-width:23.4375em) {  /* tablet */
     body {
-        background-image: url("images/bg-tablet.svg");
+        background-image: url(images/bg-tablet.svg);
         background-size: contain;
         margin: 0 2rem;
     }
@@ -117,7 +117,7 @@ main {
 
     body {
         background-size: cover ;
-        background-image: url("images/bg-desktop.svg");
+        background-image: url(images/bg-desktop.svg);
         margin:0 4rem;
         
     }
