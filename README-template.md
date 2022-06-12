@@ -51,11 +51,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- InkScape 
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -66,46 +63,82 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
+<main class="main">
+    <div class="main-description">
+      <h1 class="main-heading ff-poppins fw-600">Build The Community Your Fans Will Love</h1>
+      <p class="main-sub-heading text-accent fw-400" style="line-height:1.5rem ;">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with your users as you engage in genuine discussion.</p>
+      <div class="main-btn btn-hover"><a class="main-btn-link btn-hover text-violet" href="#">Register</a></div>
+    </div>
+    
+    <div class="main-img">
+      <img src="/images/illustration-mockups.svg"></img>
+    </div>
+
+  </main>
+
+\
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+
+
+/*-----------------------*/
+/*----Utility Classes----*/
+/*-----------------------*/
+
+/* Flex */
+.flex {
+    display: flex;
+    justify-content: center;
 }
+
+/* Uppercase */
+.uppercase {text-transform: uppercase;}
+
+/* bg-color */
+.bg-violet {background-color: var(--clr-violet);}
+.bg-soft-magenta {background-color: var(--clr-soft-magenta);}
+
+/* text-color */
+.text-violet {color:var(--clr-violet);}
+.text-soft-magenta {color: var(--clr-soft-magenta);}
+.text-white {color: white;}
+.text-accent { color:rgb(244, 230, 255);}
+
+/*font-familes*/
+.ff-poppins {font-family: var(--ff-poppins);}
+.ff-open-sans {font-family:var(--ff-open-sans)};
+
+/* font-weight */
+.fw-400 {font-weight:400;}
+.fw-600 {font-weight:600;}
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
 }
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I learned how to design svg files using inkscape and use media queries for responsive layout.  I also learned how to import icons with cdnjs and font awesome
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I need to study the fundamentals of css. Specially media queries and how to make proper breakpoints. I also need to learn how to make semantic html and css to make my code more readable. 
+T
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Inkscape](https://inkscape.org/) - This helped me designing the background for both desktop and tablet background.
+- [Font awesome](https://fontawesome.com/) - This is helped me to get social media icons.
+-[Cdnjs](https://cdnjs.com/) - This helped importing the icons from fontawesome to my code. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Frontend Mentor - [@Markufuu](https://www.frontendmentor.io/profile/Markufuu)
+- Twitter 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Kevin Powell's videos for teaching me the foundations of responsive web design. 

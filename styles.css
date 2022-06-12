@@ -197,14 +197,23 @@ main {
     width: 180px;
     height: 53px;
     border-radius: 250px;
-    background-color: white;
     text-align: center;
-}
-
-.main-btn-link {
-    display: inline-block;
+    background-color: white;
+    color: var(--clr-violet);
+    box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.37);
+    transition: all 0.2s ease;
     text-decoration: none;
 }
+
+
+
+.main-btn:hover {
+    background-color: var(--clr-soft-magenta);
+    color: white;
+}
+
+
+
 
 /* Images */
 
@@ -234,17 +243,21 @@ footer {
     justify-content: center;
     padding-top: 4rem;
     padding-bottom: 0.5rem;
-    gap: 0.7rem;
+    gap: 1rem;
 }
 
-
-.footer-icon-border {
-    display: inline-block;
-    padding: 0.2rem;
-    border: 1.2px solid white;
+.footer-icon {
+    display: block;
+    padding: 0.5rem;
     border-radius: 50%;
+    border: 1.5px solid white;
+    transition: all 0.2s ease;
 }
 
+.footer-icon:hover {
+    border-color:var(--clr-soft-magenta);
+    color: var(--clr-soft-magenta);
+}
 
 
 @media screen and (min-width:23.4375em) {
@@ -268,6 +281,3 @@ footer {
 }
 
 
-.footer-icon {
-    text-decoration: none;
-}
