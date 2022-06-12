@@ -64,18 +64,16 @@ To see how you can add code snippets, see below:
 
 ```html
 
-<main class="main">
+  <main class="main">
     <div class="main-description">
       <h1 class="main-heading ff-poppins fw-600">Build The Community Your Fans Will Love</h1>
       <p class="main-sub-heading text-accent fw-400" style="line-height:1.5rem ;">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connection with your users as you engage in genuine discussion.</p>
-      <div class="main-btn btn-hover"><a class="main-btn-link btn-hover text-violet" href="#">Register</a></div>
+      <a href="#" class="main-btn">Register</a>
     </div>
     
     <div class="main-img">
-      <img src="/images/illustration-mockups.svg"></img>
+      <img src="/images/illustration-mockups.svg">
     </div>
-
-  </main>
 
 \
 ```
